@@ -38,8 +38,16 @@ header > h1 {
     color: aliceblue;
 }
 .name:active{
-    
-    cursor:pointer;
+        cursor:pointer;
+}
+section .theme{
+    font-size: 30px;
+    text-decoration: none;
+    color:#000;
+    font-family:"궁서"
+}
+section .theme:hover{
+    color:white;
 }
 
 section {
@@ -114,8 +122,8 @@ section {
 .last {
     height: 2800px;
     background-color: cornflowerblue;
-    
-}
+    width: 220px;
+    }
 
 .menu a {
     color: #fff;
